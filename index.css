@@ -1,0 +1,27 @@
+body
+{
+   margin: 0;
+   height: 100%;
+}
+.full
+{
+   background-image: url(janjan4.jpg);
+   background-repeat: no-repeat;
+   background-size: cover;
+   background-position: center;
+   height: 1000px;
+}
+.full h1
+{
+   font-size: 80px;
+}
+
+.full p
+{
+   font-family: 'Merriweather', serif
+}
+.main
+{
+   color: #ffffff;
+   font-family: 'Lora', serif;
+}

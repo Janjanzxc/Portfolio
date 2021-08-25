@@ -1,0 +1,52 @@
+body, html
+{
+		height: 100%;
+		margin: 0;
+		background-color: #0d0607;
+
+}
+.landing-page-parent
+{
+	background-image: url(janjan4.jpg);
+    height: 100%;
+	width: 100%;
+	background-repeat: no-repeat;
+	background-size: contain;
+	position: relative;
+	display: flex;
+	flex: 1
+}
+.navlist
+{
+	font-size: 100px;
+	text-align: justify;
+	position: absolute;
+	top: 50%;
+	left: 30%;
+	transform: translate(-50%, -50%);
+}
+.show-hidden a
+{
+	text-decoration: none;
+	color: #ffffff;
+}
+.show-hidden .para1
+{
+	display: inline;
+}
+.show-hidden:hover .para1
+{
+	display: none;
+}
+.show-hidden .para2
+{
+	display: none;
+}
+.show-hidden:hover .para2
+{
+	display: inline;
+}
+.show-hidden a:hover
+{
+	color: #a4161a;
+}
