@@ -1,27 +1,130 @@
-body
-{
-   margin: 0;
-   height: 100%;
-}
-.full
-{
-   background-image: url(janjan4.jpg);
-   background-repeat: no-repeat;
-   background-size: cover;
-   background-position: center;
-   height: 1000px;
-}
-.full h1
-{
-   font-size: 80px;
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@300;500&display=swap");
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
 }
 
-.full p
-{
-   font-family: 'Merriweather', serif
+html {
+    font-family: "Montserrat";
 }
-.main
-{
-   color: #ffffff;
-   font-family: 'Lora', serif;
+
+.intro {
+    background: url(janjan4.jpg);
+    width: 100%;
+    height: 1000px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
 }
+.about {
+    background-color: #1e1f26;
+}
+.projects {
+    min-height: 60vh;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;    
+    background-color: #1e1f26;
+    margin: auto;
+}
+
+.cont-skills {
+    width: 100%;
+    position: inherit;
+    display: block;
+    justify-content:center;
+    align-items:center;
+    margin: 50px auto;
+}
+.container2 {
+    width: 100%;
+    max-width: 800px;
+    background-color: red;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+.cont-projects {
+    width: 100%;
+    margin: 50px auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.cont-image {
+    width: 50%;
+    height: 500px;
+    background: url(website1.png) no-repeat center / cover;
+    border-radius: 8px;
+}
+
+.cont-image2 {
+    width: 50%;
+    height: 500px;
+    background: url(website2.png) no-repeat center / cover;
+    border-radius: 8px;
+}
+
+.cont-text {
+    width: 50%;
+    min-height: 300px;
+    background-color: #e1e0e0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 30px;
+    border-radius: 8px;
+    color: black;
+    margin-left: -150px;
+}
+
+.cont-text h1 {
+    font-size: 40px;
+    font-weight: lighter;
+}
+
+.cont-text p {
+    margin: 20px 0;
+    font-weight: 500;
+    line-height: 25px;
+}
+
+.cont-text a {
+    text-decoration: none;
+    text-transform: uppercase;
+    background-color: white;
+    color: black;
+    padding: 20px 30px;
+    display: inline-block;
+    letter-spacing: 2px;
+}
+.cont-contact
+{
+    margin: 10px auto;
+}
+.cont-contact .text-forms
+{
+    margin: 10px auto;
+}
+
+/* @media only screen and (max-width: 768px) {
+    .container {
+        flex-direction: column;
+        width: 100%;
+        margin: 0 20px;
+    }
+    .cont-image {
+        width: 100%;
+        height: 400px;
+    }
+    .cont-text {
+        width: 90%;
+        margin: 0;
+        margin-top: -100px;
+    }
+} */
