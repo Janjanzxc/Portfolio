@@ -14,7 +14,7 @@
 </head>
 
 <body>
-    <nav class="navbar navbar-expand-sm sticky-top navbar-light">
+    <nav class="navbar navbar-expand-sm sticky-top navbar-light bg-light">
         <div class="container-fluid">
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#collapsibleNavbar">
                 <span class="navbar-toggler-icon"></span>
@@ -34,12 +34,48 @@
                         <a class="nav-link" href="#">PROJECTS</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="#">CONTACT</a>
+                        <a class="nav-link" href="#" data-bs-toggle="modal" data-bs-target="#contactModal">CONTACT</a>
                     </li>
                 </ul>
             </div>
         </div>
     </nav>
+    <div id="contactModal" class="modal fade" role="dialog" data-bs-backdrop="static">
+        <div class="modal-dialog modal-dialog-centered justify-content-center">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title">Contact Me</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    <form>
+                        <div class="mb-3">
+                            <label for="email" class="form-label">Email address</label>
+                            <input type="email" class="form-control" id="email" aria-describedby="emailHelp">
+                        </div>
+                        <div class="mb-3">
+                            <label for="contact" class="form-label">Contact Number</label>
+                            <input type="number" class="form-control" id="contact">
+                        </div>
+                        <select class="form-select form-select-sm mb-4" aria-label=".form-select-sm example"
+                            placeholder="hehe">
+                            <option selected>Project Interested</option>
+                            <option value="1">Full Creation of Web Design</option>
+                            <option value="2">Creating a Website using Bootstrap</option>
+                            <option value="3">Creating Back-End in Existing Website</option>
+                        </select>
+                        <button type="button" class="btn btn-secondary float-end" data-bs-dismiss="modal">Close</button>
+                        <button type="button" class="btn btn-primary float-end me-1">Submit</button>
+                    </form>
+                </div>
+                <div class="modal-footer justify-content-center">
+                    <a href="https://www.facebook.com/Wtfitsjanjan"><i class="fab fa-facebook-square fs-3 me-2" data-bs-toggle="tooltip" data-bs-placement="top" title="Janjan Lucero"></i></a>
+                    <a href="https://www.linkedin.com/in/john-ariel-lucero-08104821b/"><i class="fab fa-linkedin fs-3 me-2" data-bs-toggle="tooltip" data-bs-placement="top" title="John Ariel Lucero"></i></a>
+                    <a href="https://myjobstreet.jobstreet.com.ph/resume/preview-resume.php?x=7uhkmms0jcb1ktphtqit0dq2i5"><i class="fas fa-newspaper fs-3 me-2" data-bs-toggle="tooltip" data-bs-placement="top" title="John Ariel Lucero"></i></a>
+                </div>
+            </div>
+        </div>
+    </div>
     <section class="intro d-flex justify-content-center text-center align-center">
         <div class="container-fluid">
             <div class="col">
@@ -65,7 +101,7 @@
                             lvl III in 2019 and <em>Back-End Developement </em> lvl III in 2020. I started studying
                             web designing for me to grow as a Front-End and soon be studying Back-end Developement
                         </p>
-                        <img src="janjan6.jpg" alt="Kaybiang Tunnel">
+                        <img src="janjan6.jpg" alt="Kaybiang Tunnel" class="img-fluid rounded">
                     </div>
                 </div>
             </div>
@@ -138,73 +174,134 @@
                 </div>
             </div>
     </section>
-    <section class="projects">
-        <div class="container cont-projects">
-            <div class="cont-image"></div>
-            <div class="cont-text">
-                <div class="content">
-                    <h1>Sneaker Beast</h1>
-                    <h6>HTML | CSS | Bootstrap</h6>
-                    <p>Shoppers today are focused on health and wellness, and more people are buying athletic shoes
-                        so they can exercise. ...Sneaker Beast also noticed that people are wearing athletic shoes
-                        for comfort and casual wear, and as “streetwear”and not just for sports. So they design shoes
-                        to fill these needs.</p>
-                    <a href="#" class="btn">Read more</a>
+    <section id="education">
+        <div class="container">
+            <div class="row ">
+                <div class="col-6 border-end"></div>
+                <div class="col-6 border-start">
+                    <h1>2015</h1>
+                    <ul class="list-unstyled">
+                        <li><i>1st yr College of Bachelor of Science in Refrigerator and Condition</i> </li>
+                    </ul>
                 </div>
             </div>
-        </div>
-        <div class="container cont-projects">
-            <div class="cont-image2"></div>
-            <div class="cont-text">
-                <div class="content">
-                    <h1>PIC-IT</h1>
-                    <h6>HTML | CSS | Bootstrap</h6>
-                    <p> Photographers living in the Philippines. Their specialty is Weddings, but he also has some
-                        amazing work with Modelling.ThisPhotography Website where they showcase different experties
-                        regarding Photo Editing, Video Editing and Photoshoot.It tells how the founder how they got
-                        the idea during this pandemic.
-                    </p>
-                    <a href="#" class="btn">Read more</a>
+            <div class="row">
+                <div class="col-6 border-end text-end">
+                    <h1>2016</h1>
+                    <ul class="list-unstyled">
+                        <li><i>2nd yr College, Shift to Bachelor of Science in Computer Engineering</i></li>
+                        <li><i>Learn how to code in VB.NET</i></li>
+                        <li><i>Introduction to Java</i></li>
+                    </ul>
                 </div>
+                <div class="col-6 border-start"></div>
+            </div>
+            <div class="row ">
+                <div class="col-6 border-end"></div>
+                <div class="col-6 border-start">
+                    <h1>2017</h1>
+                    <ul class="list-unstyled">
+                        <li><i>Xavier Technical Training</i></li>
+                        <li><i>PC Building and Troubleshooting</i></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-6 border-end text-end">
+                    <h1>2019</h1>
+                    <ul class="list-unstyled">
+                        <li><i>Optinum Skills Institute - Web Design lvl III</i></li>
+                        <li><i>Grab Food Driver</i></li>
+                        <li><i>Training Center for Skills and DEvelopment INC. - Web Development lvl III</i></li>
+                    </ul>
+                </div>
+                <div class="col-6 border-start"></div>
+            </div>
+            <div class="row ">
+                <div class="col-6 border-end"></div>
+                <div class="col-6 border-start">
+                    <h1>2020</h1>
+                    <ul class="list-unstyled">
+                        <li><i>NC II Passer</i></li>
+                        <li><i>Email Threats Certificate</i></li>
+                        <li><i>Cloud Containerization Certificate</i></li>
+                        <li><i>Accelerometers Certificate</i></li>
+                        <li><i>Robotics Process Automation Certificate</i></li>
+                        <li><i>Trends, Research and Innovation in Technology and Computing Certificate</i></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-6 border-end text-end">
+                    <h1>2021</h1>
+                    <ul class="list-unstyled">
+                        <li><i>OJT: Hytec Power INC - Web Designer team </i></li>
+                        <li><i>Direcho Trabaho Program</i></li>
+                    </ul>
+                </div>
+                <div class="col-6 border-start"></div>
             </div>
         </div>
     </section>
-    <section>
-        <div class="container cont-contact">
-            <header class="text-center">
-                <h1>Contact</h1>
-                <hr>
-                <p>You seem's to like me? Why don't we talk.</p>
-            </header>
-            <form class="form-horizontal" action="">
-                <div class="form-floating text-forms">
-                    <input type="text" class="form-control w-25" id="Fname" name="Fname" placeholder="Full name">
-                    <label for="Fname">Full Name</label>
-                </div>
-                <div class="form-floating text-forms">
-                    <input type="email" class="form-control w-25" id="mail" name="mail" placeholder="Email">
-                    <label for="mail">Email</label>
-                </div>
-                <div class="form-floating text-forms">
-                    <select class="form-select form-control-sm w-25" id="proj-list"
-                        aria-label="Floating label select example">
-                        <option value="1">Web Designing</option>
-                        <option value="2">Back-End Developement</option>
-                        <option value="3">Creating Bootstrap Website</option>
-                    </select>
-                    <label for="proj-list">Project Interested</label>
-                </div>
-                <div class="form-group">
-                    <div class="col-sm-offset-2 col-sm-10">
-                        <button type="submit" class="btn btn-default">Submit</button>
+    <section id="projects">
+        <div class="container cont-proj">
+            <div class="row">
+                <div class="col">
+                    <div class="row">
+                        <div class=" project-img col-6">
+                            <img src="website1.png" class="img-fluid rounded" alt="">
+                            <div class="project-text">
+                                <div class="project-text-inner">
+                                    <h3>Sneaker Beast</h3>
+                                    <p>
+                                        Shoppers today are focused on health and wellness, and more people
+                                        are buying athletic shoes so they can exercise
+                                        Sneaker Beast also noticed that people are wearing
+                                        athletic shoes for comfort and casual wear, and as “streetwear”and not just for
+                                        sports.So they design shoes to fill these needs.</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class=" project-img col-6">
+                            <img src="website2.png" class="img-fluid rounded" alt="">
+                            <div class="project-text1">
+                                <div class="project-text-inner1">
+                                    <h3>PIC-IT</h3>
+                                    <p>Photographers living in the Philippines. Their specialty is Weddings, but he also
+                                        has
+                                        some amazing work with Modelling.ThisPhotography Website where they showcase
+                                        different
+                                        experties regarding Photo Editing, Video Editing and Photoshoot.It tells how the
+                                        founder
+                                        how they got the idea during this pandemic.</p>
+                                </div>
+                            </div>
+                        </div>
                     </div>
                 </div>
+            </div>
         </div>
-        </form>
     </section>
+    <footer class="mt-5">
+        <ul class="nav justify-content-center border-bottom pb-3 mb-3">
+          <li class="nav-item"><a href="#" class="nav-link px-2 text-muted">Home</a></li>
+          <li class="nav-item"><a href="#" class="nav-link px-2 text-muted">Features</a></li>
+          <li class="nav-item"><a href="#" class="nav-link px-2 text-muted">Pricing</a></li>
+          <li class="nav-item"><a href="#" class="nav-link px-2 text-muted">FAQs</a></li>
+          <li class="nav-item"><a href="#" class="nav-link px-2 text-muted">About</a></li>
+        </ul>
+        <p class="text-center text-muted textt">© 2021 Company, Inc</p>
+      </footer>
 </body>
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/js/bootstrap.bundle.min.js"
     integrity="sha384-U1DAWAznBHeqEIlVSCgzq+c9gqGAJn5c/t99JyeKa9xxaYpSvHU5awsuZVVFIhvj"
     crossorigin="anonymous"></script>
+<script src="https://unpkg.com/@popperjs/core@2/dist/umd/popper.js"></script>
+<script>
+    var tooltipTriggerList = [].slice.call(document.querySelectorAll('[data-bs-toggle="tooltip"]'))
+    var tooltipList = tooltipTriggerList.map(function (tooltipTriggerEl) {
+        return new bootstrap.Tooltip(tooltipTriggerEl)
+    })
+</script>
 
 </html>
