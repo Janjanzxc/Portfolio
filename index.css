@@ -1,14 +1,17 @@
-@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@300;500&display=swap");
+
 * {
     padding: 0;
     margin: 0;
     box-sizing: border-box;
 }
-
-html {
-    font-family: "Montserrat";
+h1
+{
+    font-family: 'Roboto Slab', serif;
 }
-
+p
+{
+    font-family: 'Titillium Web', sans-serif;
+}
 .intro {
     background: url(janjan4.jpg);
     width: 100%;
@@ -19,13 +22,35 @@ html {
     justify-content: center;
     text-align: center;
     align-items: center;
+    color: whitesmoke;
 }
-.about {
-    background-color: #1e1f26;
+
+.nav-text
+{
+    font-family: 'Yantramanav', sans-serif;
+    background-color: #0c0606;
+    color: whitesmoke;
+}
+.nav-text a
+{
+    color: whitesmoke;
+}
+.nav-text a:hover
+{
+    color: rgb(247, 21, 21);
+}
+.about
+{
+    background-color: #29274C;
+    color: whitesmoke;
 }
 .cont-proj
 {
     position: relative;
+}
+.prog-color
+{
+    color: green;
 }
 .project-img
 {
@@ -33,7 +58,7 @@ html {
     opacity: 1;
     backface-visibility: hidden;
 }
-.project-text
+.project-left
 {   
     width: 48%;
     height: fit-content;
@@ -51,7 +76,7 @@ html {
     color: black;
     width: 100%;
 }
-.project-text1
+.project-right
 {   
     width: 48%;
     height: fit-content;
@@ -73,11 +98,11 @@ html {
 {
     opacity: 0.9;
 }
-.project-img:hover .project-text
+.project-img:hover .project-left
 {
     opacity: 1;
 }
-.project-img:hover .project-text1
+.project-img:hover .project-right
 {
     opacity: 1;
 }
@@ -97,7 +122,7 @@ html {
 {
     margin: 10px auto;
 }
-.textt
+.margin-text
 {
     margin: 0px;
 }
